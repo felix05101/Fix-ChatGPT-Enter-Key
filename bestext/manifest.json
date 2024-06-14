@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Enter Key Trigger",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://chatgpt.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
